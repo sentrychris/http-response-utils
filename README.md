@@ -163,7 +163,3 @@ Contributions are welcome! Please open an issue or submit a pull request if you 
 ## License
 
 This project is licensed under the MIT License.
-
----
-
-This README provides an overview of the package, including installation instructions, usage examples, API documentation, and an example of how to use it in an Express application.
