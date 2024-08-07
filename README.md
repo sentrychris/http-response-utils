@@ -122,10 +122,10 @@ class UnauthorizedRequestError extends InternalServerError {
 
 #### `ForbiddenRequestError`
 
-Represents a 401 Unauthorized error.
+Represents a 403 Forbidden error.
 
 ```typescript
-class UnauthorizedRequestError extends InternalServerError {
+class ForbiddenRequestError extends InternalServerError {
   public statusCode: number;
   constructor(message: string);
 }

@@ -1,6 +1,6 @@
 {
   "name": "http-response-utils",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "author": "Chris Rowles <christopher.rowles@outlook.com>",
   "license": "MIT",
   "description": "HTTP response codes and custom error messages.",
