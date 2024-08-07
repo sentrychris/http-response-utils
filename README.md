@@ -34,6 +34,7 @@ import {
   InvalidRequestError,
   NotFoundRequestError,
   UnauthorizedRequestError,
+  ForbiddenRequestError,
 } from 'http-status-errors';
 
 // Example usage
@@ -109,6 +110,17 @@ class NotFoundRequestError extends InternalServerError {
 ```
 
 #### `UnauthorizedRequestError`
+
+Represents a 401 Unauthorized error.
+
+```typescript
+class UnauthorizedRequestError extends InternalServerError {
+  public statusCode: number;
+  constructor(message: string);
+}
+```
+
+#### `ForbiddenRequestError`
 
 Represents a 401 Unauthorized error.
 
