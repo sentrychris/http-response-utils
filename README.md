@@ -1,7 +1,3 @@
-Sure, here's a README for your NPM package that provides HTTP status code constants and custom error classes:
-
----
-
 # HTTP Status Codes and Custom Errors
 
 This NPM package provides HTTP status code constants and custom error classes for easy use in your Node.js applications. It simplifies the process of handling HTTP errors by allowing you to import predefined status codes and error classes.
