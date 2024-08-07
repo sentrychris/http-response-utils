@@ -1,0 +1,22 @@
+{
+  "name": "http-response-utils",
+  "version": "0.1.2",
+  "author": "Chris Rowles <christopher.rowles@outlook.com>",
+  "license": "MIT",
+  "description": "HTTP response codes and custom error messages.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sentrychris/http-responses.git"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^22.1.0",
+    "typescript": "^5.5.4"
+  }
+}
