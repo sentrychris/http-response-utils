@@ -7,7 +7,7 @@ This NPM package provides HTTP status code constants and custom error classes fo
 Install the package via npm:
 
 ```bash
-npm install http-status-errors
+npm install http-response-utils
 ```
 
 ## Usage
